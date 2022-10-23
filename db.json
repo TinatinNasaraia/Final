@@ -1,0 +1,29 @@
+{
+    "workout_data": [
+      {
+        "id": 1,
+        "name": "cardio",
+        "images": "./images/cardio.png",
+        "buy": "Click to BOOK NOW"
+      },
+      {
+        "id": 2,
+        "name": "airyoga",
+        "images": "./images/airyoga.png",
+        "buy": "Click to BOOK NOW"
+      },
+      {
+        "id": 3,
+        "name": "lifting",
+        "images": "./images/lifting.png",
+        "buy": "Click to BOOK NOW"
+        
+      },
+      {
+        "id": 4,
+        "name": "press & back",
+        "images": "./images/press.png",
+        "buy": "Click to BOOK NOW"
+      }
+    ]
+    }     

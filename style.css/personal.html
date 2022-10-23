@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bronx Club" />
+  <meta name="keywords" content="Bronx club" />
+  <meta property="og:url" content="#" />
+  <meta property="og:type" content="workout" />
+  <meta property="og:title" content="Bronx club" />
+  <meta property="og:description" content="Bronx club" />
+  <meta property="og:image" content="#" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+  <link rel="icon" href="#" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css/reset.css" />
+  <link rel="stylesheet" href="style.css/style.css" />
+  <link rel="stylesheet" href="style.css/responsive.css" />
+  <title>Bronx club</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="bg-img">
+      <nav class="nav_bar">
+        <a href="index.html" class="nav_logo"><i <i class="fa-solid fa-dumbbell"></i></a>
+        <ul class="nav_menu">
+          <li class="nav_list">
+            <a href="index.html" class="nav_item">Home</a>
+          </li>
+          <li>
+            <a href="personal.html" class="nav_item">Personal Workouts</a>
+          </li>
+          <li>
+            <a href="schedule.html" class="nav_item">Schedule</a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav_item">Contact</a>
+          </li>
+        </ul>
+        <div class="burger_bar">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <h1 class="main">Main Page</h1>
+  <button class="scroll-up">Scroll Up</button>
+  <section class="first-section">
+    <div class="first-main-div">
+      <h1 class="h1-first-title">IT'S ALL ABOUT WHAT YOU CAN ACHIEVE </h1>
+      <h3 class="h3-first-title">Empower yourself to make the changes you need to make</h3>
+      <div class="slider-container">
+        <div class="slides">
+          <button class="slider-add-button">
+            BOOK NOW<i class="fa-solid fa-cart-plus"></i>
+          </button>
+
+          <div class="slider-image">
+            <img class="img" src="images/cardio.png" alt="background_1" />
+          </div>
+          <div class="slider-title"> Cardio </div>
+          <div class="slider-description">
+            Every Day  8:00 PM;
+            A solid cardio workout is the backbone of an effective workout regime, which is why we run cardio classes twice daily. 
+            Whether you are right at the start of a weight loss journey, or simply looking to tone up and keep fit, our cardio classes will put you through your paces and keep you on top form
+          </div>
+        </div>
+
+        <div class="slides">
+          <button class="slider-add-button">
+            BOOK NOW<i class="fa-solid fa-cart-plus"></i>
+          </button>
+          <div class="slider-image">
+            <img class="img" src="images/airyoga.png" alt="background_1" />
+          </div>
+          <div class="slider-title"> AirYoga</div>
+          <div class="slider-description">
+            Every Wednesday and Saturday 8:00 AM;
+            Sure, you have heard or regular yoga, but what about trying out some new moves while floating feet into the air?
+            Air yoga is an interdisciplinary workout that combines the flexibility and technique of regular yoga with the strength building of hanging. Whether you have tried air yoga before or are a total beginner, you are welcome in our classes.
+          </div>
+        </div>
+
+        <div class="slides">
+          <button class="slider-add-button">
+            BOOK NOW<i class="fa-solid fa-cart-plus"></i>
+          </button>
+
+          <div class="slider-image">
+            <img class="img" src="images/lifting.png" alt="background_1" />
+          </div>
+          <div class="slider-title">Lifting</div>
+          <div class="slider-description">
+            Every Day  21:00; 
+            Lifting is not just about strength. While you will build great core, arm, and leg muscles while lifting, you will also develop better coordination and an understanding of how your body interacts with the world. 
+            Whether you are already an experienced weightlifter, or have never picked up a dumbbell in your life, you will find a lot of value in our classes.
+          </div>
+        </div>
+
+        <div class="slides">
+          <button class="slider-add-button">
+            BOOK NOW<i class="fa-solid fa-cart-plus"></i>
+          </button>
+
+          <div class="slider-image">
+            <img class="img" src="images/press.png" alt="background_1" />
+          </div>
+          <div class="slider-title"> Press & back</div>
+          <div class="slider-description">
+            Every Day  10:00 AM;
+            There are few better full-body workouts available than our press and back classes. We welcome members of all abilities to our classes, and are always keen to help beginners make a start
+            If you can not find a class at a time that suits you, please get in touch with us, since we often hold spontaneous classes which do not make their way onto the official schedule.
+          </div>
+        </div>
+        
+
+        <a class="prev" onclick="plusIndex(-1)">
+           </a>
+            <a class="next" onclick="plusIndex(+1)">></a>
+
+            <div class="slider-bullets" id="slider-bullets">
+              <span class="dots" onclick="currentSlide(1)"></span>
+              <span class="dots" onclick="currentSlide(2)"></span>
+              <span class="dots" onclick="currentSlide(3)"></span>
+              <span class="dots" onclick="currentSlide(4)"></span>
+              <span class="dots" onclick="currentSlide(5)"></span>
+            </div>
+      </div>
+    </div>
+    <div class="second-main-div">
+      <h2 class="h2-first-title">ARE YOU READY FOR CHANGES?</h2>
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input class="username" type="text" id="username" placeholder="Enter username" />
+          <span>Error message</span>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input class="email" type="text" id="email" placeholder="Enter email" />
+          <span>Error message</span>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input class="password" type="password" id="password" placeholder="Enter password" />
+          <p class="pass-show"><i class="fa-solid fa-eye" id="show-hide"></i></p>
+          <span>Error message</span>
+        </div>
+        <div class="form-control">
+          <label for="password2">Confirm Passsword</label>
+          <input class="password2" type="password" id="password2" placeholder="Enter password again" />
+          <span>Error message</span>
+        </div>
+        <div class="form-control">
+          <label for="gendermale">MALE</label>
+          <input type="radio" class="gender" id="gendermale" />
+          <span>Error message</span>
+        </div>
+        <div class="form-control">
+          <label for="genderfemale" class="gender">FEMALE</label>
+          <input type="radio" class="gender" id="genderfemale" />
+          <span>Error message</span>
+        </div>
+
+        <div class="form-control">
+          <label for="agree">I agree terms and conditions</label>
+          <input type="checkbox" name="agree" id="agree" />
+          <span>Error message</span>
+        </div>
+        <button id="btn" type="submit" class="form-button">Click Here</button>
+      </form>
+    </div>
+  </section>
+  <section class="buyers-section">
+    <div class="buyers-div">
+      <h2 class="top-buyers">
+        ABOUT BRONX
+      </h2>
+      <button class="delete" id="delete-btn">
+        We Are not here to carry you to fitness, we are here to motivate you to carry yourself to your goals. 
+        If you are not sure what your goals are, or do not know where to start on your fitness journey, come in and speak to one of our qualified trainers who can help you develop a plan.
+      </button>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-box-1">
+      <h3 class="box-1-h3">WORKING HOURS</h3>
+      <ul>
+        <li class="box-1-li">Monday - Friday 5:00 AM - 12:00 AM</li>
+        <li class="box-1-li">Sunday - Saturday 8:00 AM - 10:00 PM</li>
+      </ul>
+    </div>
+    <div class="footer-box-2">
+      <h3 class="box-1-h3">ADDRESS</h3>
+      <ul>
+        <li class="footer-info">661 Sulphur Springs Ave. </li>
+        <li class="footer-info">Bronx, NY 10465</li>
+      </ul>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
