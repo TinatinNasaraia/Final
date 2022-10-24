@@ -8,9 +8,9 @@ let randerPosts = async () => {
     template += `
     <div class="workout-posts">
     <img class="workout-images" src="${element.images}" alt="">
-    <h2 class="drink-name">${element.name}</h2>
-    <h3 class="prices">${element.price}</h3>
-    <h3 class="click-to-buy">${element.buy}</h3>
+    <h2 class="workout-name">${element.name}</h2>
+    <h3 class="workout">${element.price}</h3>
+    <h3 class="click-to-book">${element.buy}</h3>
   </div>
     `;
   });
@@ -57,7 +57,7 @@ const display_workout = (workout_data) => {
     workout_list.innerHTML = html_string;
 };
 
-load_whiskey();
+load_workout();
 
 
 let scroll_button = document.querySelector(".scroll-up1");

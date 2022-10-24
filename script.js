@@ -8,7 +8,9 @@ let btn = document.getElementById("btn");
 let gender_male = document.getElementById("gendermale");
 let gender_female = document.getElementById("genderfemale");
 let agree = document.getElementById("agree");
-//burger bar
+
+
+
 
 burger_bar.addEventListener("click", function () {
   burger_bar.classList.toggle("active");
@@ -20,7 +22,9 @@ document.querySelectorAll(".nav_item").forEach((y) =>
     nav_menu.classList.remove("active");
   })
 );
-// slider
+
+
+
 let slideIndex = 1;
 
 function showImage(item) {
@@ -135,7 +139,9 @@ form.addEventListener("submit", function (item) {
   }
 });
 
-//password show/hide
+
+
+
 let show_hide = document.getElementById("show-hide");
 show_hide.addEventListener("click", function () {
   if (show_hide.classList.contains("fa-eye")) {
@@ -151,7 +157,10 @@ show_hide.addEventListener("click", function () {
   }
 });
 
-//scroll up event
+
+
+
+
 let scroll_button = document.querySelector(".scroll-up");
 
 scroll_button.addEventListener("click", function () {
@@ -160,7 +169,11 @@ scroll_button.addEventListener("click", function () {
     behavior: "smooth",
   });
 });
-// fetch API GET  and DELETE method
+
+
+
+
+
 let delete_btn = document.getElementById("delete-btn");
 let bayers_div = document.querySelector(".buyers-div");
 let bayers_section = document.getElementById(".buyers-section");
@@ -199,11 +212,11 @@ function Database() {
     let url = `https://reqres.in/api/users?page=2/${id}`;
     fetch(url, {
       method: "DELETE",
-    }).then(() => bayers_div.remove());
+    }).then(() => workout_div.remove());
   });
 
-  bayers_div;
-  console.log(bayers_div);
+  workout_div;
+  console.log(workout_div);
 }
 Database();
 
